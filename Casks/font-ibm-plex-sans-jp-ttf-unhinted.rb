@@ -6,8 +6,7 @@ cask "font-ibm-plex-sans-jp-ttf-unhinted" do
   name "IBM Plex Sans JP"
   homepage "https://github.com/IBM/plex"
 
-  conflicts_with cask: "font-ibm-plex-sans-jp"
-                 cask: "bobh-official/ibm-plex-cjk-extra/font-ibm-plex-sans-jp-unhinted"
+  conflicts_with cask: ["font-ibm-plex-sans-jp", "bobh-official/ibm-plex-cjk-extra/font-ibm-plex-sans-jp-unhinted"]
 
   livecheck do
     url :url
